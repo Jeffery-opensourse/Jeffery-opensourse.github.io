@@ -4,11 +4,11 @@
 # ============================================================
 
 # ---------- 站点 ----------
-title: Chiyu Wang
+title: Jeffrey
 subtitle: ''
-description: 'Academic website of Chiyu Wang — machine learning for materials science and geotechnical engineering.'
-keywords: 'Chiyu Wang, machine learning, materials science, geotechnical engineering, EPB shield'
-author: Chiyu Wang
+description: 'Academic website of Jeffrey — machine learning for materials science and geotechnical engineering.'
+keywords: 'Chiyu Wang, Jeffrey, machine learning, materials science, geotechnical engineering, EPB shield'
+author: Jeffrey
 language: en
 timezone: 'Asia/Shanghai'
 
@@ -103,7 +103,7 @@ theme_config:
     default: auto
 
   navbar:
-    blog_title: "Chiyu Wang"
+    blog_title: "Jeffrey"
     menu:
       - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
       - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
@@ -160,8 +160,9 @@ theme_config:
       - { class: "iconfont icon-github-fill", link: "https://github.com/Jeffery-opensourse", tip: "GitHub" }
       - { class: "iconfont icon-mail", link: "mailto:chiyuwangce@163.com", tip: "Email" }
 
-  # 备案信息（如需展示备案号，把 enable 改成 true 并填 icp_text）
+  # 页脚（备案号如需展示，把下面 beian.enable 改成 true）
   footer:
+    content: '© 2026 Jeffrey（冰川雪） · <a href="https://hexo.io" target="_blank" rel="nofollow noopener">Hexo</a> · <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener">Fluid</a>'
     beian:
       enable: false
       icp_text: "皖ICP备2021011879号"
