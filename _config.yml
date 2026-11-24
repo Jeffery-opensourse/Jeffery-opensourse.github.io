@@ -121,7 +121,7 @@ theme_config:
     banner_mask_alpha: 0.3
     slogan:
       enable: true
-      text: "Machine learning for materials and geotechnical engineering"
+      text: "欢迎来到Jeffrey的小天地，祝你一切顺利！"
 
   post:
     banner_img: /img/banner.jpg
