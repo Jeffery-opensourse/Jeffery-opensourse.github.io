@@ -5,8 +5,8 @@ date: 2025-02-06 10:00:00
 ---
 
 I am a Ph.D. student in Materials Science and Engineering at the School of Astronautics,
-Harbin Institute of Technology, supervised by Prof. Xinghong Zhang. Before that I received
-my M.S. and B.E. degrees in Civil Engineering from Northeastern University.
+Harbin Institute of Technology. Before that I received my M.S. and B.E. degrees in Civil
+Engineering from Northeastern University.
 
 My research uses **machine learning, active learning and multimodal learning** to accelerate
 material design and intelligent geotechnical construction — from EPB shield soil conditioning
