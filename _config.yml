@@ -1,0 +1,157 @@
+# ============================================================
+#  Hexo 主配置  ——  Chiyu Wang 个人网站
+#  改完推送到 GitHub，Actions 会自动重新构建并部署
+# ============================================================
+
+# ---------- 站点 ----------
+title: Chiyu Wang
+subtitle: ''
+description: 'Academic website of Chiyu Wang — machine learning for materials science and geotechnical engineering.'
+keywords: 'Chiyu Wang, machine learning, materials science, geotechnical engineering, EPB shield'
+author: Chiyu Wang
+language: en
+timezone: 'Asia/Shanghai'
+
+# ---------- 网址 ----------
+# 部署到自定义域名时，url 必须写正式域名，否则 CSS/图片路径会错
+url: https://18wcy.cn
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# ---------- 目录 ----------
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# ---------- 写作 ----------
+new_post_name: :title.md
+default_layout: post
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+
+# ---------- 代码高亮 ----------
+# 交给 Fluid 主题处理，这里关闭 Hexo 自带的，避免样式打架
+syntax_highlighter: ''
+highlight:
+  line_number: false
+  auto_detect: false
+  tab_replace: ''
+  wrap: false
+  hljs: false
+prismjs:
+  preprocess: false
+  line_number: false
+  tab_replace: ''
+
+# ---------- 首页 / 分页 ----------
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+default_category: uncategorized
+category_map:
+tag_map:
+
+# ---------- 日期 ----------
+meta_generator: true
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'mtime'
+
+# ---------- 分页 ----------
+per_page: 10
+pagination_dir: page
+
+# ---------- 插件 ----------
+# 搜索插件未启用（Fluid 的搜索依赖 hexo-generator-search，
+# 该插件较老，为避免构建失败先关掉，需要时再加）
+include:
+exclude:
+ignore:
+
+# ---------- 主题 ----------
+theme: fluid
+
+# ============================================================
+#  主题配置（Hexo 会把这里的键深合并进 Fluid 默认配置，
+#  只写要改的部分即可，其余保持主题默认值）
+# ============================================================
+theme_config:
+  favicon: /img/favicon-32x32.png
+  apple_touch_icon: /img/apple-touch-icon.png
+
+  dark_mode:
+    enable: true
+    default: auto
+
+  navbar:
+    blog_title: "Chiyu Wang"
+    menu:
+      - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+      - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+      - { key: "publications", link: "/publications/", name: "Publications", icon: "iconfont icon-brush-fill" }
+      - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+      - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+
+  # 搜索插件未装，关掉避免请求 404
+  search:
+    enable: false
+
+  index:
+    banner_img: /img/banner.jpg
+    banner_img_height: 100
+    banner_mask_alpha: 0.3
+    slogan:
+      enable: true
+      text: "Machine learning for materials and geotechnical engineering"
+
+  post:
+    banner_img: /img/banner.jpg
+    banner_img_height: 70
+    banner_mask_alpha: 0.3
+
+  archive:
+    banner_img: /img/banner.jpg
+  category:
+    banner_img: /img/banner.jpg
+  tag:
+    banner_img: /img/banner.jpg
+  page:
+    banner_img: /img/banner.jpg
+
+  about:
+    enable: true
+    banner_img: /img/banner.jpg
+    banner_img_height: 60
+    avatar: /img/avatar.jpg
+    name: "Chiyu Wang"
+    intro: "Ph.D. Student · Harbin Institute of Technology"
+    icons:
+      - { class: "iconfont icon-github-fill", link: "https://github.com/Jeffery-opensourse", tip: "GitHub" }
+      - { class: "iconfont icon-mail-fill", link: "mailto:chiyuwangce@163.com", tip: "Email" }
+
+  # 备案号：拿到之后把 enable 改成 true 并填上号
+  footer:
+    beian:
+      enable: false
+      icp_text: ""
+      police_text: ""
+      police_code: ""
