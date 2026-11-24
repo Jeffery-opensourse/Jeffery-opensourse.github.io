@@ -127,6 +127,18 @@ theme_config:
     banner_img: /img/banner.jpg
     banner_img_height: 70
     banner_mask_alpha: 0.3
+    comments:
+      enable: true
+      type: utterances
+
+  # 评论系统：utterances（基于 GitHub Issues，零后端）
+  # 使用前需要在仓库上安装 utterances App（见部署说明）
+  utterances:
+    repo: Jeffery-opensourse/Jeffery-opensourse.github.io
+    issue_term: pathname
+    label: comment
+    theme: github-light
+    theme_dark: github-dark
 
   archive:
     banner_img: /img/banner.jpg
@@ -148,10 +160,10 @@ theme_config:
       - { class: "iconfont icon-github-fill", link: "https://github.com/Jeffery-opensourse", tip: "GitHub" }
       - { class: "iconfont icon-mail", link: "mailto:chiyuwangce@163.com", tip: "Email" }
 
-  # 备案信息
+  # 备案信息（如需展示备案号，把 enable 改成 true 并填 icp_text）
   footer:
     beian:
-      enable: true
+      enable: false
       icp_text: "皖ICP备2021011879号"
       police_text: ""
       police_code: ""
