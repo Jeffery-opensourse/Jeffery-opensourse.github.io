@@ -148,10 +148,10 @@ theme_config:
       - { class: "iconfont icon-github-fill", link: "https://github.com/Jeffery-opensourse", tip: "GitHub" }
       - { class: "iconfont icon-mail", link: "mailto:chiyuwangce@163.com", tip: "Email" }
 
-  # 备案号：拿到之后把 enable 改成 true 并填上号
+  # 备案信息
   footer:
     beian:
-      enable: false
-      icp_text: ""
+      enable: true
+      icp_text: "皖ICP备2021011879号"
       police_text: ""
       police_code: ""
