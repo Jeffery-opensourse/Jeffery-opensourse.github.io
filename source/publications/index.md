@@ -6,49 +6,80 @@ date: 2025-02-06 10:00:00
 
 ## Journal Papers
 
-![Fig. 1](/img/paper3_fig1.jpg)
+<div class="pub-list">
 
-**A semantics-guided multimodal machine learning framework for predicting the flexural strength of C/C-SiC composites**
-**Chiyu Wang**, Yuhao Fang, Jingsheng Hu, Ao Chen, Jiahui Zhou, Zijie Xu, Wenzheng Zhang\*, Mingyi Tan\*, Xinghong Zhang
-*Extreme Materials*, 2 (2026) 100046 · [DOI](https://doi.org/10.1016/j.exm.2026.100046)
+<div class="pub-item">
+<div class="pub-fig"><img src="/img/paper3_fig1.jpg" alt="Fig. 1"></div>
+<div class="pub-body">
 
-- A semantics-guided multimodal machine learning (SGMML) framework combining a LoRA-fine-tuned LLM text encoder with structured numerical features.
-- MAE of 25.96 MPa and R² of 0.81, outperforming traditional ML models by 20.9% in R².
-- Validated against experiments and external literature under data-limited conditions.
+<h3 class="pub-title">A semantics-guided multimodal machine learning framework for predicting the flexural strength of C/C-SiC composites</h3>
+<p class="pub-authors"><strong>Chiyu Wang</strong>, Yuhao Fang, Jingsheng Hu, Ao Chen, Jiahui Zhou, Zijie Xu, Wenzheng Zhang<sup>*</sup>, Mingyi Tan<sup>*</sup>, Xinghong Zhang</p>
+<p class="pub-journal"><em>Extreme Materials</em>, 2 (2026) 100046 · <a href="https://doi.org/10.1016/j.exm.2026.100046">DOI</a></p>
 
----
+<ul class="pub-points">
+<li>A semantics-guided multimodal machine learning (SGMML) framework combining a LoRA-fine-tuned LLM text encoder with structured numerical features.</li>
+<li>MAE of 25.96 MPa and R² of 0.81, outperforming traditional ML models by 20.9% in R².</li>
+<li>Validated against experiments and external literature under data-limited conditions.</li>
+</ul>
 
-![Fig. 1](/img/paper2_fig1.png)
+</div>
+</div>
 
-**Active learning-based research of foaming agent for EPB shield soil conditioning in gravel stratum**
-**Chiyu Wang**, Wen Zhao\*, Qian Bai\*, Xin Wang
-*Measurement*, 239 (2025) 115509 · [DOI](https://doi.org/10.1016/j.measurement.2024.115509)
+<div class="pub-item">
+<div class="pub-fig"><img src="/img/paper2_fig1.png" alt="Fig. 1"></div>
+<div class="pub-body">
 
-- An active learning model designed to formulate foaming agents for EPB shield soil conditioning.
-- Extra Tree Regression best for foaming volume; CatBoost best for half-life prediction.
-- New foam reaches a half-life of 945 s and a Foam Expansion Ratio of 21.
+<h3 class="pub-title">Active learning-based research of foaming agent for EPB shield soil conditioning in gravel stratum</h3>
+<p class="pub-authors"><strong>Chiyu Wang</strong>, Wen Zhao<sup>*</sup>, Qian Bai<sup>*</sup>, Xin Wang</p>
+<p class="pub-journal"><em>Measurement</em>, 239 (2025) 115509 · <a href="https://doi.org/10.1016/j.measurement.2024.115509">DOI</a></p>
 
----
+<ul class="pub-points">
+<li>An active learning model designed to formulate foaming agents for EPB shield soil conditioning.</li>
+<li>Extra Tree Regression best for foaming volume; CatBoost best for half-life prediction.</li>
+<li>New foam reaches a half-life of 945 s and a Foam Expansion Ratio of 21.</li>
+</ul>
 
-![Fig. 1](/img/paper1_fig1.jpg)
+</div>
+</div>
 
-**A parameter design model for EPB shield soil conditioning in gravel stratum based on machine learning**
-**Chiyu Wang**, Wen Zhao\*, Cheng Chen, Yulun Wang, Xin Wang
-*Construction and Building Materials*, 411 (2024) 134637 · [DOI](https://doi.org/10.1016/j.conbuildmat.2023.134637)
+<div class="pub-item">
+<div class="pub-fig"><img src="/img/paper1_fig1.jpg" alt="Fig. 1"></div>
+<div class="pub-body">
 
-- A Gradient Boosting Regression (GBR) model forecasting upgraded soil properties with improved generalization.
-- A hybrid GBR-ANN design model yields less than 10% deviation from laboratory results.
-- Provides a property-oriented method for determining conditioner amount and composition.
+<h3 class="pub-title">A parameter design model for EPB shield soil conditioning in gravel stratum based on machine learning</h3>
+<p class="pub-authors"><strong>Chiyu Wang</strong>, Wen Zhao<sup>*</sup>, Cheng Chen, Yulun Wang, Xin Wang</p>
+<p class="pub-journal"><em>Construction and Building Materials</em>, 411 (2024) 134637 · <a href="https://doi.org/10.1016/j.conbuildmat.2023.134637">DOI</a></p>
 
----
+<ul class="pub-points">
+<li>A Gradient Boosting Regression (GBR) model forecasting upgraded soil properties with improved generalization.</li>
+<li>A hybrid GBR-ANN design model yields less than 10% deviation from laboratory results.</li>
+<li>Provides a property-oriented method for determining conditioner amount and composition.</li>
+</ul>
 
-**Review on research and prevention of time-delayed rockbursts**
-**Chiyu Wang**, Zhexun Liu, You Peng, Haoran Li, Gang Liu, Dechao Wang, Peng Jia
-*Mining Technology*, 2021, 21(2): 58-62 (in Chinese) · [DOI](https://doi.org/10.13828/j.cnki.ckjs.2021.02.015)
+</div>
+</div>
 
-**Influence of heterogeneity on macroscopic creep characteristics of sandstone**
-You Peng, Gang Liu, **Chiyu Wang**, Dechao Wang, Peng Jia
-*Sichuan Building Materials*, 2021 (in Chinese) · [DOI](https://doi.org/10.3969/j.issn.1672-4011.2021.05.042)
+<div class="pub-item">
+<div class="pub-body">
+
+<h3 class="pub-title">Review on research and prevention of time-delayed rockbursts</h3>
+<p class="pub-authors"><strong>Chiyu Wang</strong>, Zhexun Liu, You Peng, Haoran Li, Gang Liu, Dechao Wang, Peng Jia</p>
+<p class="pub-journal"><em>Mining Technology</em>, 2021, 21(2): 58-62 (in Chinese) · <a href="https://doi.org/10.13828/j.cnki.ckjs.2021.02.015">DOI</a></p>
+
+</div>
+</div>
+
+<div class="pub-item">
+<div class="pub-body">
+
+<h3 class="pub-title">Influence of heterogeneity on macroscopic creep characteristics of sandstone</h3>
+<p class="pub-authors">You Peng, Gang Liu, <strong>Chiyu Wang</strong>, Dechao Wang, Peng Jia</p>
+<p class="pub-journal"><em>Sichuan Building Materials</em>, 2021 (in Chinese) · <a href="https://doi.org/10.3969/j.issn.1672-4011.2021.05.042">DOI</a></p>
+
+</div>
+</div>
+
+</div>
 
 ## Thesis
 
