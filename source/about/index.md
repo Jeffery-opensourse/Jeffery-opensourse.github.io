@@ -35,4 +35,3 @@ and foaming agents, to high-temperature C/C-SiC composites.
 - **ResearchGate**: [Chiyu Wang](https://www.researchgate.net/profile/Chiyu-Wang-5)
 - **Location**: Harbin, China
 
-I am happy to hear from prospective collaborators and students.

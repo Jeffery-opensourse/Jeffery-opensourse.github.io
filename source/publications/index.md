@@ -50,11 +50,6 @@ date: 2025-02-06 10:00:00
 You Peng, Gang Liu, **Chiyu Wang**, Dechao Wang, Peng Jia
 *Sichuan Building Materials*, 2021 (in Chinese) · [DOI](https://doi.org/10.3969/j.issn.1672-4011.2021.05.042)
 
-## Under Review
-
-- Estimating foam reliability of EPB shield soil conditioning system based on deep learning — **Chiyu Wang**, Wen Zhao\*, et al.
-- Attitude prediction of EPB shield with model uncertainty based on machine learning — **Chiyu Wang**, Wen Zhao\*, et al.
-
 ## Thesis
 
 - *Machine Learning-Based Development of EPB Shield Tunneling Foaming Agent*, Master's thesis, Northeastern University, 2025.
