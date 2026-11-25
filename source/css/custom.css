@@ -1,0 +1,134 @@
+/* ==========================================================================
+   About 页单栏排版优化
+   由 _config.yml -> theme_config.custom_css 引入（/css/custom.css）
+   ========================================================================== */
+
+/* 正文收窄 + 行距放宽，长段落更好读；与上方居中的头像区块保持同一条中轴 */
+.about-content .markdown-body {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.85;
+}
+
+.about-content .markdown-body > p {
+  margin-bottom: 1.15em;
+}
+
+/* 章节标题：左侧强调条，层次更清楚 */
+.about-content .markdown-body h2 {
+  position: relative;
+  margin: 2.4em 0 0.9em;
+  padding-left: 14px;
+  font-size: 1.3em;
+}
+
+.about-content .markdown-body h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  bottom: 0.3em;
+  width: 4px;
+  border-radius: 2px;
+  background: #30a9de;
+}
+
+.about-content .markdown-body h2:first-child {
+  margin-top: 0;
+}
+
+/* 列表紧凑一点 */
+.about-content .markdown-body ul {
+  padding-left: 1.15em;
+  margin-bottom: 1.2em;
+}
+
+.about-content .markdown-body li {
+  margin-bottom: 0.4em;
+}
+
+/* 联系方式里的粗体标签弱化成次级色，信息更安静 */
+.about-content .markdown-body li > strong:first-child {
+  color: #718096;
+  font-weight: 600;
+}
+
+/* ---------- 教育经历表格 ---------- */
+.about-content .markdown-body table {
+  width: 100%;
+  margin: 1.1em 0 1.6em;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #e6eaef;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 0.95em;
+}
+
+.about-content .markdown-body table tr {
+  border-top: none;
+  background-color: transparent;
+}
+
+.about-content .markdown-body table th,
+.about-content .markdown-body table td {
+  padding: 11px 14px;
+  border: none;
+  border-bottom: 1px solid #eef1f5;
+  vertical-align: top;
+  text-align: left;
+}
+
+.about-content .markdown-body table th {
+  background: #f4f6f9;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.about-content .markdown-body table tr:last-child td {
+  border-bottom: none;
+}
+
+.about-content .markdown-body table tbody tr:nth-child(even) td {
+  background: #fafbfc;
+}
+
+/* ---------- 窄屏 ---------- */
+@media (max-width: 768px) {
+  .about-content .markdown-body {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .about-content .markdown-body table {
+    font-size: 0.9em;
+  }
+
+  .about-content .markdown-body table th,
+  .about-content .markdown-body table td {
+    padding: 8px 10px;
+  }
+}
+
+/* ---------- 暗色模式 ---------- */
+html[data-user-color-scheme="dark"] .about-content .markdown-body li > strong:first-child {
+  color: #a7a9ad;
+}
+
+html[data-user-color-scheme="dark"] .about-content .markdown-body table {
+  border-color: #3b4757;
+}
+
+html[data-user-color-scheme="dark"] .about-content .markdown-body table th {
+  background: #2d3746;
+}
+
+html[data-user-color-scheme="dark"] .about-content .markdown-body table th,
+html[data-user-color-scheme="dark"] .about-content .markdown-body table td {
+  border-bottom-color: #3b4757;
+}
+
+html[data-user-color-scheme="dark"] .about-content .markdown-body table tbody tr:nth-child(even) td {
+  background: #222a35;
+}

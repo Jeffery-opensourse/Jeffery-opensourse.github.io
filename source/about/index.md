@@ -4,13 +4,9 @@ layout: about
 date: 2025-02-06 10:00:00
 ---
 
-I am a Ph.D. student in Materials Science and Engineering at the School of Astronautics,
-Harbin Institute of Technology. Before that I received my M.S. and B.E. degrees in Civil
-Engineering from Northeastern University.
+I am a Ph.D. student in Materials Science and Engineering at the School of Astronautics, Harbin Institute of Technology. Before that I received my M.S. and B.E. degrees in Civil Engineering from Northeastern University.
 
-My research uses **machine learning, active learning and multimodal learning** to accelerate
-material design and intelligent geotechnical construction — from EPB shield soil conditioning
-and foaming agents, to high-temperature C/C-SiC composites.
+My research uses **machine learning, active learning and multimodal learning** to accelerate material design and intelligent geotechnical construction — from EPB shield soil conditioning and foaming agents, to high-temperature C/C-SiC composites.
 
 ## Research Interests
 
@@ -24,7 +20,7 @@ and foaming agents, to high-temperature C/C-SiC composites.
 
 | Period | Degree | Institution |
 | --- | --- | --- |
-| 2025.09 – present | Ph.D., Materials Science and Engineering | Harbin Institute of Technology |
+| 2025.09 – present | Ph.D. student, Materials Science and Engineering | Harbin Institute of Technology |
 | 2022.09 – 2025.06 | M.S., Civil Engineering | Northeastern University |
 | 2018.09 – 2022.06 | B.E., Civil Engineering | Northeastern University |
 

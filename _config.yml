@@ -102,6 +102,10 @@ theme_config:
     enable: true
     default: auto
 
+  # 自定义样式（About 页排版、表格样式等）
+  # 对应文件 source/css/custom.css
+  custom_css: /css/custom.css
+
   navbar:
     blog_title: "Jeffrey"
     menu:
